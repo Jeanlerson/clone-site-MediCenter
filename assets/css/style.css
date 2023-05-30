@@ -147,3 +147,130 @@ nav a:hover{
 .hours{
     padding-bottom: 8px;
 }
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+}
+.widget_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 8px;
+}
+
+#quadrado{
+    display: flex;
+}
+
+.widget_quad{
+    margin: 0px 30px 30px 0px;
+    width: 150px;
+    height: 150px;
+    background-color: #39aae1;
+}
+.quad2{
+    margin-right: 0px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px ;
+}
+article a{
+    text-decoration: none;
+}
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    font-size: 12px;
+    padding: 10px;
+    background-color: #2b4c99;
+    color: #fff;
+    margin-right: 2px;
+}
+article .news_comments{
+    font-size: 12px;
+    padding: 10px;
+    background-color: #39aae1;
+    color: #fff;
+}
+
+article .news_thumbnail{
+    margin-top: 30px;
+}
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 23px;
+}
+article .news_resume{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.make_text{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.make_contact{
+    display: flex;
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    border-top: 1px solid #5c5c5c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.make_contact a{
+    color: #2b4c99;
+    border-bottom: 1px dotted #2b4c99;
+    text-decoration: none;
+}
+.make_contact b{
+    color: #000;
+}
+.make_contact img{
+    width: 12%;
+    height: auto;
+    background-color: #ccc;
+    padding: 8px;
+    margin-left: 0px;
+}
+.make_contact p{
+    margin-left: 10px;
+}
