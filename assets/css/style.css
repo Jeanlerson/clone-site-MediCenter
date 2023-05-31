@@ -274,3 +274,215 @@ article .news_resume{
 .make_contact p{
     margin-left: 10px;
 }
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+}
+.fm1,.fm2,.fm3{
+    flex: 1;
+    color: #fff;
+}
+
+.fm1{
+    background-color: #39aae1;
+}
+.fm2{
+    background-color: #0079c7;
+}
+.fm3{
+    background-color: #2b4c99;
+}
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer_area{
+    display: flex;
+}
+.footer_areaitem{
+    flex: 1;
+    color: #fff;
+}
+.flexColumn{
+    flex-direction: column;
+}
+
+footer .widget_title_text{
+    color: #fff;
+}
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+footer .banner_desc{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.footer_desc{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.desc1{
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+}
+.desc2{
+    font-size: 11px;
+    color: #39aae1;
+    margin-top: 2px;
+}
+
+.tweets{
+    color: #5c5c5c;
+}
+
+.tweets b{
+    color: #fff;
+}
+
+.clinic{
+    color:#5c5c5c;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.desc_clinic_text{
+    margin-bottom: 20px;
+}
+.desc_clinic{
+    display: flex;
+    justify-content: space-between;
+}
+.desc_clinic p{
+    margin: 0px
+}
+.desc_clinic b{
+    color: #fff;
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: #39aae1;
+}
+
+@media (max-width: 800px) {
+    .banner_headline{
+        padding-left: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 45px;
+    }
+    .banner_headline h2 {
+        font-size: 16px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    #geral section,
+    #geral aside{
+        padding-left: 20px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+    .desc_clinic{
+        flex-direction: column;
+    }
+    .desc_clinic1{
+        margin-bottom: 10px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .logo{
+        padding-left: 20px;
+    }
+
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 700px) {
+    .banner_options{
+        flex-direction: column;
+        height: auto;
+    }
+
+    section{
+        margin-top: 20px;
+    }
+
+    .widget_quad{
+        margin: 0px 30px 30px 0px;
+        width: 120px;
+        height: 120px;
+        background-color: #39aae1;
+    }
+}
+
+@media (max-width: 400px){
+    #geral aside{
+        padding-left: 10px;
+        width: 300px;
+    }
+    .container{
+        width: 300px;
+    }
+    #geral section{
+        padding-left: 0px;
+    }
+}
