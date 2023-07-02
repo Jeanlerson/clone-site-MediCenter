@@ -472,6 +472,15 @@ footer .banner_desc{
         height: 120px;
         background-color: #39aae1;
     }
+
+    .banner_headline{
+        flex: 0 !important;
+        min-height: 300px !important;
+    }
+
+    #geral{
+        margin-top: 110px;
+    }
 }
 
 @media (max-width: 400px){
@@ -484,5 +493,8 @@ footer .banner_desc{
     }
     #geral section{
         padding-left: 0px;
+    }
+    #geral{
+        margin-top: 180px;
     }
 }
